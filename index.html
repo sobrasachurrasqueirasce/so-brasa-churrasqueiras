@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Só Brasa Churrasqueiras | Catálogo</title>
+<meta name="description" content="Só Brasa Churrasqueiras — qualidade, durabilidade e o verdadeiro sabor do churrasco.">
+<style>
+:root{--orange:#ff6500;--orange2:#ff8a00;--black:#080808;--card:#121212;--text:#f7f3ee;--muted:#bdb7b1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+header{position:sticky;top:0;z-index:10;background:rgba(8,8,8,.92);backdrop-filter:blur(12px);border-bottom:1px solid #262626}
+.nav{max-width:1150px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.nav img{height:58px;width:auto;object-fit:contain}.links{display:flex;gap:24px}.links a{color:#fff;text-decoration:none;font-weight:700;font-size:14px}.links a:hover{color:var(--orange)}
+.hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:80px 20px;background:radial-gradient(circle at 50% 20%,#3b1805 0,#120b07 28%,#080808 62%)}
+.hero-inner{max-width:900px}.hero img{width:min(360px,72vw);margin-bottom:20px}.hero h1{font-size:clamp(38px,7vw,76px);margin:5px 0 10px;line-height:.98;text-transform:uppercase}.hero h1 span{color:var(--orange)}.hero p{font-size:clamp(17px,2.4vw,23px);color:#ddd;max-width:720px;margin:18px auto 30px;line-height:1.5}.btn{display:inline-block;padding:15px 25px;border-radius:999px;background:linear-gradient(135deg,var(--orange),var(--orange2));color:#fff;text-decoration:none;font-weight:800;box-shadow:0 8px 30px #ff650044}.btn.secondary{background:transparent;border:1px solid #555;box-shadow:none;margin-left:8px}
+section{max-width:1150px;margin:auto;padding:80px 20px}.section-title{text-align:center;margin-bottom:42px}.section-title h2{font-size:clamp(30px,5vw,46px);margin:0 0 10px}.section-title p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:linear-gradient(180deg,#171717,#101010);border:1px solid #292929;border-radius:20px;overflow:hidden;box-shadow:0 15px 40px #0008}.card img{width:100%;height:380px;object-fit:cover;display:block}.card-body{padding:22px}.tag{display:inline-block;color:var(--orange);font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}.card h3{font-size:25px;margin:4px 0 10px}.card p{color:#bdbdbd;line-height:1.5;margin:0 0 18px}.card .price{font-size:30px;font-weight:900;margin-bottom:16px}.card .price small{font-size:13px;color:#999;font-weight:600}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.feature img{width:100%;border-radius:20px;border:1px solid #292929}.feature h2{font-size:42px;margin:0 0 15px}.feature p{color:#c8c8c8;line-height:1.7}.specs{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}.spec{background:#171717;border:1px solid #303030;border-radius:14px;padding:14px 17px}.spec strong{display:block;font-size:20px;color:var(--orange)}.spec span{font-size:12px;color:#aaa}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.gallery img{width:100%;height:420px;object-fit:cover;border-radius:18px;border:1px solid #292929}
+.contact{background:linear-gradient(135deg,#201006,#0d0d0d);border:1px solid #3a1c09;border-radius:26px;padding:45px;text-align:center}.contact h2{font-size:40px;margin:0 0 12px}.contact p{color:#ccc;margin:0 auto 25px;max-width:650px;line-height:1.6}
+footer{text-align:center;border-top:1px solid #222;padding:28px 20px;color:#888;font-size:13px}footer strong{color:#fff}
+.float{position:fixed;right:18px;bottom:18px;background:#20c65a;color:#fff;text-decoration:none;font-weight:900;padding:15px 19px;border-radius:999px;box-shadow:0 10px 30px #0008;z-index:20}
+@media(max-width:800px){.links{display:none}.grid{grid-template-columns:1fr}.feature{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:330px}.card img{height:430px}.contact{padding:30px 20px}.btn.secondary{margin:10px 0 0}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<img src="images/logo.png" alt="Só Brasa Churrasqueiras">
+<nav class="links"><a href="#catalogo">Catálogo</a><a href="#medidas">Medidas</a><a href="#galeria">Galeria</a><a href="#contato">Contato</a></nav>
+</div></header>
+
+<main>
+<section class="hero">
+<div class="hero-inner">
+<img src="images/logo.png" alt="Só Brasa Churrasqueiras">
+<h1>Seu churrasco começa <span>aqui.</span></h1>
+<p>Churrasqueiras em alvenaria com acabamento de qualidade, durabilidade e o verdadeiro sabor do churrasco.</p>
+<a class="btn" href="#catalogo">🔥 Ver catálogo</a>
+<a class="btn secondary" href="#contato">Solicitar orçamento</a>
+</div>
+</section>
+
+<section id="catalogo">
+<div class="section-title"><h2>Nossas churrasqueiras</h2><p>Escolha o tamanho ideal para o seu espaço.</p></div>
+<div class="grid">
+<article class="card"><img src="images/churrasqueira-pequena.jpeg" alt="Churrasqueira pequena Só Brasa"><div class="card-body"><span class="tag">Modelo compacto</span><h3>Churrasqueira Pequena</h3><p>Uma opção compacta para quem quer aproveitar bons momentos sem ocupar muito espaço.</p><div class="price">R$ 380 <small>consulte condições</small></div><a class="btn" href="https://wa.me/5585991851307?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20da%20S%C3%B3%20Brasa%20e%20tenho%20interesse%20nesta%20churrasqueira." target="_blank">Tenho interesse</a></div></article>
+<article class="card"><img src="images/churrasqueira-media.jpeg" alt="Churrasqueira média Só Brasa"><div class="card-body"><span class="tag">Mais vendida</span><h3>Churrasqueira Média</h3><p>Equilíbrio entre tamanho e praticidade para o churrasco do dia a dia e encontros com a família.</p><div class="price">R$ 450 <small>consulte condições</small></div><a class="btn" href="https://wa.me/5585991851307?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20da%20S%C3%B3%20Brasa%20e%20tenho%20interesse%20nesta%20churrasqueira." target="_blank">Tenho interesse</a></div></article>
+<article class="card"><img src="images/churrasqueira-grande.jpeg" alt="Churrasqueira grande Só Brasa"><div class="card-body"><span class="tag">Modelo grande</span><h3>Churrasqueira Grande</h3><p>Mais espaço para assar e receber. Ideal para quem gosta de reunir a família e os amigos.</p><div class="price">R$ 550 <small>consulte condições</small></div><a class="btn" href="https://wa.me/5585991851307?text=Ol%C3%A1!%20Vi%20o%20cat%C3%A1logo%20da%20S%C3%B3%20Brasa%20e%20tenho%20interesse%20nesta%20churrasqueira." target="_blank">Tenho interesse</a></div></article>
+</div>
+</section>
+
+<section id="medidas">
+<div class="section-title"><h2>Medidas dos modelos</h2><p>Confira as dimensões apresentadas nas fotos dos produtos.</p></div>
+<div class="feature">
+<img src="images/medida-media.jpeg" alt="Medidas da churrasqueira média: 2,20 m de altura e 55 cm de largura">
+<div><span class="tag">Churrasqueira Média</span><h2>Compacta e eficiente</h2><p>O modelo médio apresentado possui aproximadamente <strong>2,20 m de altura</strong> e <strong>55 cm de largura</strong>.</p><div class="specs"><div class="spec"><strong>2,20 m</strong><span>altura</span></div><div class="spec"><strong>55 cm</strong><span>largura</span></div></div></div>
+</div>
+<div style="height:70px"></div>
+<div class="feature">
+<div><span class="tag">Churrasqueira Grande</span><h2>Mais espaço para o churrasco</h2><p>O modelo grande apresentado possui aproximadamente <strong>2,30 m de altura</strong> e <strong>65 cm de largura</strong>.</p><div class="specs"><div class="spec"><strong>2,30 m</strong><span>altura</span></div><div class="spec"><strong>65 cm</strong><span>largura</span></div></div></div>
+<img src="images/medida-grande.jpeg" alt="Medidas da churrasqueira grande: 2,30 m de altura e 65 cm de largura">
+</div>
+</section>
+
+<section id="galeria">
+<div class="section-title"><h2>Galeria</h2><p>Alguns dos nossos acabamentos e modelos.</p></div>
+<div class="gallery"><img src="images/churrasqueira-media.jpeg" alt="Churrasqueira Só Brasa em acabamento preto"><img src="images/churrasqueira-grande.jpeg" alt="Churrasqueira Só Brasa em acabamento vermelho"></div>
+</section>
+
+<section id="contato">
+<div class="contact"><h2>Gostou de algum modelo?</h2><p>Fale com a Só Brasa Churrasqueiras e peça seu orçamento. O botão abaixo está pronto para receber o WhatsApp da empresa.</p>
+<a class="btn" href="https://wa.me/5585991851307" target="_blank">💬 Falar pelo WhatsApp</a>
+<p style="font-size:12px;color:#777;margin-top:18px">Atendimento pelo WhatsApp: (85) 99185-1307</p>
+</div>
+</section>
+</main>
+<footer><strong>SÓ BRASA CHURRASQUEIRAS</strong><br>Qualidade • Durabilidade • O verdadeiro sabor do churrasco</footer>
+<a class="float" href="https://wa.me/5585991851307" target="_blank">WhatsApp</a>
+</body></html>
